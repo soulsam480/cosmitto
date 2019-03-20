@@ -27,7 +27,7 @@
         }
 
         body {
-            background-color: rgba(245, 241, 241, 0.986);
+            background-color:white;
         }
 
         /*parallax effect*/
@@ -42,7 +42,7 @@
         /* First image (Logo. Full height) */
 
         .bgimg-1 {
-            background-image: url('3.jpg');
+            background-image: url('main.png');
             min-height: 100%;
 
         }
@@ -56,7 +56,7 @@
         }
 
         .bgimg-2 {
-            background-image: url("7.jpg");
+            background-image: url("q.jpg");
             min-height: 350px;
         }
 
@@ -68,7 +68,7 @@
         }
 
         .bgimg-3 {
-            background-image: url("5.jpg");
+            background-image: url("q.jpg");
             min-height: 400px;
         }
 
@@ -146,15 +146,15 @@
         <!--nav bar end and  also the top social panel -->
     
         <!--intro image with logo and page title-->
-        <div class="bgimg-1 w3-display-container w3-opacity-min " id="home" class="home">
+        <div class="bgimg-1 w3-display-container" id="home" class="home">
             <!--title for mobile phone-->
             <div style="text-align: center; padding-top:200px;" class="mtitle">
                 <img class="w3-image w3-hide-large w3-hide-medium" style="width:80px;" src="logo.png" alt="cosmitto main logo">
-                <span class="w3-wide"  style="font-family:'Oswald',sans-serif; font-size:45px; white-space:nowrap;">
+                <span class="w3-wide"  style="font-family:'Oswald',sans-serif; font-size:45px; white-space:nowrap; color: white;">
                     <b>COSMITTO 2K19</b>
                 </span>
                 <br>
-                <span style="font-family:'Open Sans Condensed',sans-serif;font-size:18px;">
+                <span style="font-family:'Open Sans Condensed',sans-serif;font-size:18px; color:white;">
                     <b>CIVIL ENGINEERING TECH FEST 2K19</b>
                 </span>
             </div>
@@ -162,11 +162,11 @@
             <div class="w3-center" style="white-space:nowrap; padding-top:150px ">
            
 
-                <span class=" w3-wide w3-hide-small" style="font-family:'Oswald',sans-serif;font-size:140px;">
+                <span class=" w3-wide w3-hide-small" style="font-family:'Oswald',sans-serif;font-size:140px; color: white;">
                  COSMITTO 2K19
                 </span>
                 <br>
-                <span class=" w3-hide-small w3-wide" style="font-family:'Open Sans Condensed',sans-serif ; font-size:32px;">
+                <span class=" w3-hide-small w3-wide" style="font-family:'Open Sans Condensed',sans-serif ; font-size:32px; color: white;">
                     <b>CIVIL ENGINEERING TECH FEST 2K19</b>
                 </span>
             </div>
@@ -182,19 +182,31 @@
         <!--about section-->
     
         <div id="about">
-            <h2 style="text-align: center; padding:20px;">PROFILE</h2>
+            <h2 style="text-align: center; padding:0px 20px 0px 20px;">ABOUT</h2>
             <div class="bgimg-2 w3-display-container ">
-    
-                <div class="w3-container" style="padding:40px 16px">
+               
+                <div class="w3-container" style="padding:10px 16px">
                     <div class="w3-row-padding w3-center">
-                        <div class="w3-half w3-text-white">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat imperdiet mi, sit amet posuere urna. Cras id vehicula
-                            lectus, non vehicula leo. Aliquam convallis posuere lacus, nec egestas ex cursus et. Etiam a quam
-                            purus. Vivamus mollis posuere purus, eu vehicula ex posuere in. In vitae est consectetur, consectetur
-                            nibh nec, accumsan ante. Nam egestas eros id purus fringilla, sed finibus sapien auctor.
+                        <div class="w3-half w3-text-black" style="padding-top:10px;">
+                           <b>
+                            COSMITTO, which derives its etymology
+                            from the latin origin and translet to commit
+                            or to entrust is among the top five festivals
+                             of the eastern india and the biggest of its 
+                            kind in Odisha.
+                            <br>
+                            Though it’s quiet young as compared to its most 
+                            established festivals, COSMITTO witnesses a footfall 
+                            over 700 people, studentts coming from more than 10 
+                            colleges to participate in over 40 events, with 
+                            its 
+                            seamless blend of competitive bout and incessant 
+                            exuberance, COSMITTO provides the perfect platform 
+                            to budding engineers to show their mettle.
+                           </b>
                         </div>
                         <div class="w3-half">
-                            <img src="me.jpg" alt="my image" class="w3-image" style=" width:260px; padding-top:20px;">
+                            <img src="me.png" alt="my image" class="w3-image" style=" width:260px;">
                         </div>
                     </div>
                 </div>
@@ -204,51 +216,45 @@
         </div>
     
         <!-- portfolio section-->
-        <div class="w3-container" id="portfolio" style="padding:120px 16px">
-            <h2 class="w3-center">PORTFOLIO</h2>
-            <p class="w3-center w3-large">Some of our Works</p>
+        <div class="w3-container" id="portfolio" style="padding:0px 10px 0px 10px">
+            <h2 class="w3-center">EVENTS</h2>
+            <p class="w3-center w3-large">EVENTS </p>
             <div class="w3-row-padding w3-section ">
-                <div class="w3-col  m3 " style="border:5px solid rgba(245, 241, 241, 0.986) ">
-                    <img src="a.jpg" style="width:100%" class="w3-hover-opacity " onclick="onClick(this)" title="x">
+                <div class="w3-col  m3 " >
+                    <img src="9.jpg" style="width:100%" class="w3-hover-opacity " 
+                     onclick="onClick(this)" title="x">
                 </div>
-                <div class="w3-col   m3" style="border:5px solid rgba(245, 241, 241, 0.986)">
-                    <img src="b.jpg" style="width:100%" class="w3-hover-opacity" onclick="onClick(this)" title="x">
+                <div class="w3-col  m3 " >
+                    <img src="2.jpg" style="width:100%" class="w3-hover-opacity " onclick="onClick(this)" title="x">
                 </div>
-                <div class="w3-col  m3" style="border:5px solid rgba(245, 241, 241, 0.986)">
-                    <img src="c.jpg" style="width:100%" class="w3-hover-opacity" onclick="onClick(this)" title="x">
+                <div class="w3-col  m3 " >
+                    <img src="5.jpg" style="width:100%" class="w3-hover-opacity " onclick="onClick(this)" title="x">
                 </div>
-                <div class="w3-col  m3" style="border:5px solid rgba(245, 241, 241, 0.986)">
-                    <img src="d.jpg" style="width:100%" class="w3-hover-opacity" onclick="onClick(this)" title="x">
+                <div class="w3-col  m3 " >
+                    <img src="6.jpg" style="width:100%" class="w3-hover-opacity " onclick="onClick(this)" title="x">
                 </div>
             </div>
     
             <div class="w3-row-padding w3-section">
-                <div class="w3-col  m3" style="border:5px solid rgba(245, 241, 241, 0.986)">
-                    <img src="e.jpg" style="width:100%" class="w3-hover-opacity" onclick="onClick(this)" title="x">
+                <div class="w3-col  m3 " >
+                    <img src="1.jpg" style="width:100%" class="w3-hover-opacity " onclick="onClick(this)" title="x">
                 </div>
-                <div class="w3-col  m3" style="border:5px solid rgba(245, 241, 241, 0.986)">
-                    <img src="f.jpg" style="width:100%" class="w3-hover-opacity" onclick="onClick(this)" title="x">
+                <div class="w3-col  m3 " >
+                    <img src="3.jpg" style="width:100%" class="w3-hover-opacity " onclick="onClick(this)" title="x">
                 </div>
-                <div class="w3-col  m3" style="border:5px solid rgba(245, 241, 241, 0.986)">
-                    <img src="g.jpg" style="width:100%" class="w3-hover-opacity" onclick="onClick(this)" title="x">
+                <div class="w3-col  m3 " >
+                    <img src="4.jpg" style="width:100%" class="w3-hover-opacity " onclick="onClick(this)" title="x">
                 </div>
-                <div class="w3-col  m3" style="border:5px solid rgba(245, 241, 241, 0.986)">
-                    <img src="h.jpg" style="width:100%" class="w3-hover-opacity" onclick="onClick(this)" title="x">
-                </div>
+                <div class="w3-col  m3 " >
+                    <img src="8.jpg" style="width:100%" class="w3-hover-opacity "alt="DESRIPTION – This is a planning based event. In this the participants have to plan buildings using AutoCAD. There will be little bit interesting thing as we are introducing Indian culture (VASTU SHASTRA) in this event. This event will take your test on speed, accuracy and presence of mind. <br> RULES – • Participants in one group – MAX 2 • The event will be conducted in two rounds. • Those who will qualify in the first round they will participate in the second round. " onclick="onClick(this)" title="x">
+                </div> 
+               
             </div>
             <div class="w3-row-padding w3-section">
-                    <div class="w3-col  m3" style="border:5px solid rgba(245, 241, 241, 0.986)">
+                    <div class="w3-col  m3" >
                         <img src="i.jpg" style="width:100%" class="w3-hover-opacity" onclick="onClick(this)" title="x">
                     </div>
-                    <div class="w3-col  m3" style="border:5px solid rgba(245, 241, 241, 0.986)">
-                        <img src="j.jpg" style="width:100%" class="w3-hover-opacity" onclick="onClick(this)" title="x">
-                    </div>
-                    <div class="w3-col  m3" style="border:5px solid rgba(245, 241, 241, 0.986)">
-                        <img src="k.jpg" style="width:100%" class="w3-hover-opacity" onclick="onClick(this)" title="x">
-                    </div>
-                    <div class="w3-col  m3" style="border:5px solid rgba(245, 241, 241, 0.986)">
-                        <img src="l.jpg" style="width:100%" class="w3-hover-opacity" onclick="onClick(this)" title="x">
-                    </div>
+                  
                 </div>
             
         
@@ -259,9 +265,9 @@
             <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image">
                 <i class="fa fa-remove"></i>
             </span>
-            <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+            <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent ">
                 <img id="img01" class="w3-image">
-                <p id="caption" class="w3-opacity w3-large"></p>
+                <p id="caption" style="color:white;" class="w3-opacity w3-large"></p>
             </div>
         </div>
     
